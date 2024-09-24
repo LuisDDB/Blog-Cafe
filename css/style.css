@@ -21,7 +21,7 @@ html{
 /*Globales*/
 body{
     font-family: var(--funete-parrafos), arial, verdana, sans-serif;
-    font-size: 1.6rem; /*Para que los rems valgan 10 pixeles aprox*/
+    font-size: 1.6rem;/*Para que los rems valgan 10 pixeles aprox*/
     line-height: 1.8;
 }
 .contenedor{
@@ -184,4 +184,14 @@ img{
     background-color: var(--negro);
     padding-bottom: 4rem;
     margin-top: 4rem;
+}
+
+
+/*pagina Nosotros*/
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
 }
